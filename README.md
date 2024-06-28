@@ -41,6 +41,15 @@ rails db:migrate
 rails db:seed
 ```
 
+### Install libraries
+```zsh
+bundle install
+yarn install
+
+# Or you can use the ./bin/setup script if you are running the app for the first time.
+# The setup script should also create the database
+```
+
 ### Start the application
 
 ```zsh
